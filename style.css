@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Asap, sans-serif;
+}
+
+body {
+    background-color: #25272e;
+}
+
+header {
+    background: rgb(223, 222, 222);
+}
+
+header h1 {
+    color: #25272e;
+    text-align: center;
+    padding: 20px;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.score-board {
+    border: 8px solid rgb(223, 222, 222);
+    border-radius: 10px;
+    width: 400px;
+    margin: 35px auto;
+    color: rgb(223, 222, 222);
+    font-size: 7rem;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background-color: #e74c3c;
+    font-size: 2rem;
+    padding: 5px 5px;
+}
+
+#user-label {
+    position: absolute;
+    top: 55px;
+    left: -40px;
+}
+
+#comp-label {
+    position: absolute;
+    top: 55px;
+    right: -50px;
+}
+
+.result {
+    color: rgb(223, 222, 222);
+    text-align: center;
+    font-size: 3rem;
+    margin: 30px;
+}
+
+.choices {
+    text-align: center;
+}
+
+.choices p {
+    color: rgb(223, 222, 222);
+    font-size: 2rem;
+}
+
+.choice {
+    display: inline-block;
+    align-content: center;
+    width: 200px;
+    height: 200px;
+    padding-top: 25px;
+    margin: 30px 15px;
+    border: 8px solid rgb(223, 222, 222);
+    border-radius: 50%;
+    color: rgb(223, 222, 222);
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #3b3e49a6;
+}
+
+#action-message {
+    color: rgb(223, 222, 222);
+    font-size: 2rem;
+    text-align: center;
+}
+
+#reset-button {
+    background: rgb(223, 222, 222);
+    width: 200px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#reset-button:hover {
+    cursor: pointer;
+    background: #2ecc71;
+    box-shadow: 0 0 10px #0b0b0e;
+}
+
+#reset-button p {
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.green-glow {
+    border: 8px solid #2ecc71;
+    box-shadow: 0 0 10px #1f884b;
+    color: #2ecc71;
+}
+
+.red-glow {
+    border: 8px solid #e74c3c;
+    box-shadow: 0 0 10px #882d23;
+    color: #e74c3c;
+}
+
+.blue-glow {
+    border: 8px solid #0891eb;
+    box-shadow: 0 0 10px #044c7c;
+    color: #0891eb;
+}
+
+#reset-glow {
+    background: #2ecc71;
+    box-shadow: 0 0 10px #044c7c;
+}
